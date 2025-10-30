@@ -1,9 +1,12 @@
 ﻿using System;
+using BYT_CalculatorWithUnitTesting;
 
 public class Program
 {
     public static void Main(string[] args)
     {
-        System.Console.WriteLine("Hello World!");
+        var calculator = new Calculator(10, 2, '/');
+        double res = calculator.Calculate();
+        Console.WriteLine($"Result: {res}");
     }
 }
