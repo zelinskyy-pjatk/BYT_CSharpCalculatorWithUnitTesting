@@ -416,8 +416,13 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+<<<<<<< HEAD
 
 
-.idea/
 bin/
 obj/
+
+.idea/
+
+=======
+>>>>>>> 9b2e52d514525c493fcf6ac3fac45611550bf778
